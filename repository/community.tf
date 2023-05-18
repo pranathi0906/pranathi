@@ -37,3 +37,6 @@ resource "github_actions_secret" "partners" {
   secret_name     = "PARTNERS"
   plaintext_value = base64encode(data.github_repository_file.partners.content)
 }
+
+
+############## end of file #############
